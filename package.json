@@ -1,0 +1,32 @@
+{
+  "name": "uk-bank-holidays",
+  "version": "0.1.0",
+  "description": "Gets a list of UK bank holidays from the government feed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewartml/uk-bank-holidays.git"
+  },
+  "keywords": [
+    "holidays",
+    "uk",
+    "date",
+    "bank",
+    "holidays"
+  ],
+  "author": "Stewart MacKenzie-Leigh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stewartml/uk-bank-holidays/issues"
+  },
+  "homepage": "https://github.com/stewartml/uk-bank-holidays#readme",
+  "feedUrl": "https://www.gov.uk/bank-holidays.json",
+  "dependencies": {
+    "bluebird": "^3.1.5",
+    "moment": "^2.11.1",
+    "request-promise": "^2.0.0"
+  }
+}
